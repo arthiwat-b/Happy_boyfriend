@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 95vh;
     background-color: rgb(238, 144, 255);
   }
   .book{
@@ -11,7 +11,7 @@
     width: 210px;
     height: 300px;
     /* Internal Image, upload your couple image here */
-    /* background-image: url(https://shorturl.at/euzMR); */
+    background-image: url(https://shorturl.at/euzMR);
     background-size : cover;
     background-position: center;
     background-size: 97%;
@@ -42,14 +42,21 @@
     -webkit-box-shadow: 1px 1px 12px black;
     box-shadow: 1px 1px 12px black; }
   
-  .book:hover .cover{
+  /* .book:hover .cover{
    -webkit-transition: all 0.5s;
    transition: all 0.5s;
    -webkit-transform: rotatey(-85deg);
    -ms-transform: rotateY(-85deg);
    transform: rotatey(-95deg);
-  }
+  } */
   
+  .book .cover:active{
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: rotatey(-85deg);
+    -ms-transform: rotateY(-85deg);
+    transform: rotatey(-95deg);
+   }
   
   /*  */
 
