@@ -4,6 +4,7 @@
     align-items: center;
     min-height: 95vh;
     background-color: rgb(238, 144, 255);
+    
   }
   .book{
     position: relative;
@@ -11,10 +12,12 @@
     width: 210px;
     height: 300px;
     /* Internal Image, upload your couple image here */
-    background-image: url(https://shorturl.at/euzMR);
+    /* background-image: url(https://shorturl.at/euzMR); */
+    background-image: url("pic_1M_01.png");
     background-size : cover;
     background-position: center;
-    background-size: 97%;
+    background-repeat: no-repeat;
+    background-size: 95%;
     -webkit-box-shadow: 1px 1px 12px black;
     box-shadow: 1px 1px 12px black;
     -webkit-transform: preserve-3d;
@@ -22,6 +25,7 @@
     transform: preserve-3d;
     -webkit-perspective: 2000px;
     perspective: 2000px;
+    background-color: rgb(255, 255, 255);
   }
   .cover{
     top: 0;
